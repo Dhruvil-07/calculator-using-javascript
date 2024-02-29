@@ -1,0 +1,54 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4e4ba;
+}
+
+.container
+{
+    height: 70vh;
+    width: 30vw;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.input_box
+{
+    width: 100%;
+    background-color: #f4e4ba;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 0.5rem;
+}
+
+.row
+{
+    display: flex;
+    margin-top: 1.5rem;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+}
+
+.input_num , .input_opr
+{
+    height: 2rem;
+    width: 2rem;
+    background-color: #f4e4ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
